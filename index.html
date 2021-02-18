@@ -105,7 +105,6 @@
       // The main difference from fetchAll() will be the URL you request from; check
       // the writeup to view the URL pattern for fetch one and fetch all
       function fetchOne() {
-        //document.getElementById("recordIDContainer").setAttribute("style", "display: block");
         let id = window.prompt("Enter record id");
         let endpoint = document.getElementById("endpoint").value + "/" + id;
         fetch(endpoint)
